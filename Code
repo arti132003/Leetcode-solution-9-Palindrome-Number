@@ -1,0 +1,24 @@
+class Solution {
+    public boolean isPalindrome(int x) {
+
+      String s=Integer.toString(x);
+      int n=s.length()-1;
+      int k=n;
+      int l=0;
+      for(int i=0;i<=n/2;i++)
+      {
+
+        if(s.charAt(i)==s.charAt(k))
+        {
+         
+        }
+        else
+        { return false;
+        }
+         k=k-1;
+      } 
+      return true;
+      
+        
+    }
+}
